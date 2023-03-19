@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut data-icon" href="css/img/paul-ico.jpg">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="background-page">
+
+        <div class="container">
+            <div class="calculator dark" data-calculator>
+                <div class="theme-toggler active" data-toggler>
+                    <i class="toggler-icon" data-icon></i>
+                </div>
+                <div class="display-screen">
+                    <div class="display" id="display" data-display>
+    
+                    </div>
+                </div>
+                <div class="buttons">
+                    <table>
+                        <tr>
+                            <td><button class="btn-operator" id="clear" data-button>C</button></td>
+                            <td><button class="btn-operator" id="division" data-button>/</button></td>
+                            <td><button class="btn-operator" id="multiplication" data-button>X</button></td>
+                            <td><button class="btn-operator" id="backspace" data-button><<</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="btn-number" id="seven" data-button>7</button></td>
+                            <td><button class="btn-number" id="eight" data-button>8</button></td>
+                            <td><button class="btn-number" id="nine" data-button>9</button></td>
+                            <td><button class="btn-operator" id="subtraction" data-button>-</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="btn-number" id="four" data-button>4</button></td>
+                            <td><button class="btn-number" id="five" data-button>5</button></td>
+                            <td><button class="btn-number" id="six" data-button>6</button></td>
+                            <td><button class="btn-operator" id="addition" data-button>+</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="btn-number" id="one" data-button>1</button></td>
+                            <td><button class="btn-number" id="two" data-button>2</button></td>
+                            <td><button class="btn-number" id="three" data-button>3</button></td>
+                            <td rowspan="2"><button class="btn-equal" id="equal" data-button>=</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="btn-operator" id="dot" data-button>.</button></td>
+                            <td><button class="btn-number" id="zero" data-button>0</button></td>
+                            <td><button class="btn-number" id="double-zero" data-button>00</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
