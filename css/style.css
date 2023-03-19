@@ -114,6 +114,15 @@
   transform: scale(1.05);
 }
 
+.btn-number:active,
+.btn-operator:active,
+.btn-equal:active,
+#clear:active,
+#equal:active{
+  background: #50595c;
+  color: white;
+}
+
 /* Dark theme */
 
 .calculator.dark{
@@ -143,4 +152,13 @@
 .calculator.dark #equal{
   background-color: #0ba18c;
   color: white;
+}
+
+.calculator.dark .btn-number:active,
+.calculator.dark .btn-operator:active,
+.calculator.dark .btn-equal:active,
+.calculator.dark #clear:active,
+.calculator.dark #equal:active{
+  background: white;
+  color: black;
 }
